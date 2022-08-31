@@ -1,0 +1,851 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+                              ..\obj\aes.o (rand)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+BufferTx            0x80              ..\obj\pinata_protocol.o
+mask1               0x4               ..\obj\des.o
+mask2               0x4               ..\obj\des.o
+l                   0x4               ..\obj\des.o
+k                   0x7               ..\obj\des.o
+r                   0x4               ..\obj\des.o
+BufferRx            0x80              ..\obj\pinata_protocol.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\lpc17xx_clkpwr.o
+ .data          0x00000000        0x0 ..\obj\lpc17xx_clkpwr.o
+ .bss           0x00000000        0x0 ..\obj\lpc17xx_clkpwr.o
+ .text.CLKPWR_SetPCLKDiv
+                0x00000000       0x8c ..\obj\lpc17xx_clkpwr.o
+ .text.CLKPWR_Sleep
+                0x00000000       0x1c ..\obj\lpc17xx_clkpwr.o
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x24 ..\obj\lpc17xx_clkpwr.o
+ .text.CLKPWR_PowerDown
+                0x00000000       0x24 ..\obj\lpc17xx_clkpwr.o
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x24 ..\obj\lpc17xx_clkpwr.o
+ .text          0x00000000        0x0 ..\obj\system_LPC17xx.o
+ .bss           0x00000000        0x0 ..\obj\system_LPC17xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x164 ..\obj\system_LPC17xx.o
+ .text          0x00000000        0x0 ..\obj\lpc17xx_uart.o
+ .data          0x00000000        0x0 ..\obj\lpc17xx_uart.o
+ .bss           0x00000000        0x0 ..\obj\lpc17xx_uart.o
+ .text.UART_DeInit
+                0x00000000       0x98 ..\obj\lpc17xx_uart.o
+ .text.UART_ForceBreak
+                0x00000000       0x78 ..\obj\lpc17xx_uart.o
+ .text.UART_IntConfig
+                0x00000000      0x184 ..\obj\lpc17xx_uart.o
+ .text.UART_GetLineStatus
+                0x00000000       0x64 ..\obj\lpc17xx_uart.o
+ .text.UART_GetIntId
+                0x00000000       0x58 ..\obj\lpc17xx_uart.o
+ .text.UART_CheckBusy
+                0x00000000       0x28 ..\obj\lpc17xx_uart.o
+ .text.UART_ABCmd
+                0x00000000      0x134 ..\obj\lpc17xx_uart.o
+ .text.UART_ABClearIntPending
+                0x00000000       0x74 ..\obj\lpc17xx_uart.o
+ .text.UART_IrDAInvtInputCmd
+                0x00000000       0x78 ..\obj\lpc17xx_uart.o
+ .text.UART_IrDACmd
+                0x00000000       0x74 ..\obj\lpc17xx_uart.o
+ .text.UART_IrDAPulseDivConfig
+                0x00000000       0x9c ..\obj\lpc17xx_uart.o
+ .text.UART_FullModemForcePinState
+                0x00000000       0xac ..\obj\lpc17xx_uart.o
+ .text.UART_FullModemConfigMode
+                0x00000000       0xb8 ..\obj\lpc17xx_uart.o
+ .text.UART_FullModemGetStatus
+                0x00000000       0x30 ..\obj\lpc17xx_uart.o
+ .text.UART_RS485Config
+                0x00000000      0x184 ..\obj\lpc17xx_uart.o
+ .text.UART_RS485ReceiverCmd
+                0x00000000       0x48 ..\obj\lpc17xx_uart.o
+ .text.UART_RS485Send
+                0x00000000       0x7c ..\obj\lpc17xx_uart.o
+ .text.UART_RS485SendSlvAddr
+                0x00000000       0x20 ..\obj\lpc17xx_uart.o
+ .text.UART_RS485SendData
+                0x00000000       0x24 ..\obj\lpc17xx_uart.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\lpc17xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\lpc17xx_gpio.o
+ .bss           0x00000000        0x0 ..\obj\lpc17xx_gpio.o
+ .text.FIO_HalfWordGetPointer
+                0x00000000       0x74 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ByteGetPointer
+                0x00000000       0x74 ..\obj\lpc17xx_gpio.o
+ .text.GPIO_ReadValue
+                0x00000000       0x2c ..\obj\lpc17xx_gpio.o
+ .text.GPIO_IntCmd
+                0x00000000       0x70 ..\obj\lpc17xx_gpio.o
+ .text.GPIO_GetIntStatus
+                0x00000000       0xa4 ..\obj\lpc17xx_gpio.o
+ .text.GPIO_ClearInt
+                0x00000000       0x38 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ReadValue
+                0x00000000       0x1c ..\obj\lpc17xx_gpio.o
+ .text.FIO_IntCmd
+                0x00000000       0x24 ..\obj\lpc17xx_gpio.o
+ .text.FIO_GetIntStatus
+                0x00000000       0x28 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ClearInt
+                0x00000000       0x1c ..\obj\lpc17xx_gpio.o
+ .text.FIO_SetMask
+                0x00000000       0x48 ..\obj\lpc17xx_gpio.o
+ .text.FIO_HalfWordSetDir
+                0x00000000       0x8c ..\obj\lpc17xx_gpio.o
+ .text.FIO_HalfWordSetMask
+                0x00000000       0x8c ..\obj\lpc17xx_gpio.o
+ .text.FIO_HalfWordSetValue
+                0x00000000       0x3c ..\obj\lpc17xx_gpio.o
+ .text.FIO_HalfWordClearValue
+                0x00000000       0x3c ..\obj\lpc17xx_gpio.o
+ .text.FIO_HalfWordReadValue
+                0x00000000       0x40 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ByteSetDir
+                0x00000000       0x68 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ByteSetMask
+                0x00000000       0x70 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ByteSetValue
+                0x00000000       0x38 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ByteClearValue
+                0x00000000       0x38 ..\obj\lpc17xx_gpio.o
+ .text.FIO_ByteReadValue
+                0x00000000       0x3c ..\obj\lpc17xx_gpio.o
+ .text          0x00000000        0x0 ..\obj\aes.o
+ .data          0x00000000        0x0 ..\obj\aes.o
+ .text.AES128_ECB_encrypt_noTrigger
+                0x00000000       0x38 ..\obj\aes.o
+ .text.AES128_ECB_encrypt_misaligned
+                0x00000000       0x38 ..\obj\aes.o
+ .text          0x00000000        0x0 ..\obj\startup_LPC17xx.o
+ .data          0x00000000        0x0 ..\obj\startup_LPC17xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_LPC17xx.o
+ .text          0x00000000        0x0 ..\obj\lpc17xx_libcfg_default.o
+ .data          0x00000000        0x0 ..\obj\lpc17xx_libcfg_default.o
+ .bss           0x00000000        0x0 ..\obj\lpc17xx_libcfg_default.o
+ .text          0x00000000        0x0 ..\obj\lpc17xx_pinsel.o
+ .data          0x00000000        0x0 ..\obj\lpc17xx_pinsel.o
+ .bss           0x00000000        0x0 ..\obj\lpc17xx_pinsel.o
+ .text.PINSEL_ConfigTraceFunc
+                0x00000000       0x40 ..\obj\lpc17xx_pinsel.o
+ .text.PINSEL_SetI2C0Pins
+                0x00000000       0x38 ..\obj\lpc17xx_pinsel.o
+ .text          0x00000000        0x0 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .bss           0x00000000        0x4 ..\obj\syscalls.o
+ .text._sbrk    0x00000000       0x40 ..\obj\syscalls.o
+ .text.link     0x00000000       0x1c ..\obj\syscalls.o
+ .text._close   0x00000000       0x18 ..\obj\syscalls.o
+ .text._fstat   0x00000000       0x20 ..\obj\syscalls.o
+ .text._isatty  0x00000000       0x18 ..\obj\syscalls.o
+ .text._lseek   0x00000000       0x1c ..\obj\syscalls.o
+ .text._read    0x00000000       0x1c ..\obj\syscalls.o
+ .text._write   0x00000000       0x1c ..\obj\syscalls.o
+ .text.abort    0x00000000        0x8 ..\obj\syscalls.o
+ .debug_info    0x00000000      0x3ee ..\obj\syscalls.o
+ .debug_abbrev  0x00000000       0xe2 ..\obj\syscalls.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\syscalls.o
+ .debug_ranges  0x00000000       0x50 ..\obj\syscalls.o
+ .debug_line    0x00000000      0x194 ..\obj\syscalls.o
+ .debug_str     0x00000000      0x315 ..\obj\syscalls.o
+ .comment       0x00000000       0x71 ..\obj\syscalls.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\syscalls.o
+ .debug_frame   0x00000000      0x108 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\obj\uart_arduino.o
+ .data          0x00000000        0x0 ..\obj\uart_arduino.o
+ .text          0x00000000        0x0 ..\obj\hal.o
+ .data          0x00000000        0x0 ..\obj\hal.o
+ .bss           0x00000000        0x0 ..\obj\hal.o
+ .text.platform_init
+                0x00000000        0xc ..\obj\hal.o
+ .debug_info    0x00000000       0x33 ..\obj\hal.o
+ .debug_abbrev  0x00000000       0x28 ..\obj\hal.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\hal.o
+ .debug_ranges  0x00000000       0x10 ..\obj\hal.o
+ .debug_line    0x00000000       0x7a ..\obj\hal.o
+ .debug_str     0x00000000       0xd4 ..\obj\hal.o
+ .comment       0x00000000       0x71 ..\obj\hal.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\hal.o
+ .debug_frame   0x00000000       0x28 ..\obj\hal.o
+ .text          0x00000000        0x0 ..\obj\trigger_arduino.o
+ .bss           0x00000000        0x0 ..\obj\trigger_arduino.o
+ .text          0x00000000        0x0 ..\obj\pinata_protocol.o
+ .bss           0x00000000        0x0 ..\obj\pinata_protocol.o
+ .text.pinata_comannd_init
+                0x00000000        0xc ..\obj\pinata_protocol.o
+ .text          0x00000000        0x0 ..\obj\led_arduino.o
+ .data          0x00000000        0x0 ..\obj\led_arduino.o
+ .bss           0x00000000        0x0 ..\obj\led_arduino.o
+ .text.led_onboard_init
+                0x00000000       0x10 ..\obj\led_arduino.o
+ .text.led_onboard_on
+                0x00000000        0xc ..\obj\led_arduino.o
+ .text.led_onboard_off
+                0x00000000        0xc ..\obj\led_arduino.o
+ .debug_info    0x00000000       0xfb ..\obj\led_arduino.o
+ .debug_abbrev  0x00000000       0x93 ..\obj\led_arduino.o
+ .debug_aranges
+                0x00000000       0x30 ..\obj\led_arduino.o
+ .debug_ranges  0x00000000       0x20 ..\obj\led_arduino.o
+ .debug_line    0x00000000      0x22e ..\obj\led_arduino.o
+ .debug_str     0x00000000      0x1d2 ..\obj\led_arduino.o
+ .comment       0x00000000       0x71 ..\obj\led_arduino.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\led_arduino.o
+ .debug_frame   0x00000000       0x5c ..\obj\led_arduino.o
+ .text          0x00000000        0x0 ..\obj\clock_arduino.o
+ .data          0x00000000        0x0 ..\obj\clock_arduino.o
+ .bss           0x00000000        0x0 ..\obj\clock_arduino.o
+ .text.clock_arduino_16Mhz
+                0x00000000        0xc ..\obj\clock_arduino.o
+ .text.clock_arduino_8Mhz
+                0x00000000        0xc ..\obj\clock_arduino.o
+ .text.clock_arduino_4Mhz
+                0x00000000        0xc ..\obj\clock_arduino.o
+ .debug_info    0x00000000       0x55 ..\obj\clock_arduino.o
+ .debug_abbrev  0x00000000       0x2a ..\obj\clock_arduino.o
+ .debug_aranges
+                0x00000000       0x30 ..\obj\clock_arduino.o
+ .debug_ranges  0x00000000       0x20 ..\obj\clock_arduino.o
+ .debug_line    0x00000000       0xaa ..\obj\clock_arduino.o
+ .debug_str     0x00000000      0x10a ..\obj\clock_arduino.o
+ .comment       0x00000000       0x71 ..\obj\clock_arduino.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\clock_arduino.o
+ .debug_frame   0x00000000       0x58 ..\obj\clock_arduino.o
+ .text          0x00000000        0x0 ..\obj\des.o
+ .bss           0x00000000        0x0 ..\obj\des.o
+ .text.desMisaligned
+                0x00000000       0x24 ..\obj\des.o
+ .text.desRandomSboxes
+                0x00000000      0x19c ..\obj\des.o
+ .text.desRandomDelays
+                0x00000000      0x184 ..\obj\des.o
+ .text.randomDelay
+                0x00000000       0x14 ..\obj\des.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+ .text.srand    0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00080000         xr
+ram              0x10000000         0x00008000         xrw
+ram1             0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x10008000                _eram = 0x10008000
+
+.text           0x00000000     0x3ea8
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ..\obj\startup_LPC17xx.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.CLKPWR_GetPCLKSEL
+                0x000000cc       0x4c ..\obj\lpc17xx_clkpwr.o
+                0x000000cc                CLKPWR_GetPCLKSEL
+ .text.CLKPWR_GetPCLK
+                0x00000118       0x64 ..\obj\lpc17xx_clkpwr.o
+                0x00000118                CLKPWR_GetPCLK
+ .text.CLKPWR_ConfigPPWR
+                0x0000017c       0x58 ..\obj\lpc17xx_clkpwr.o
+                0x0000017c                CLKPWR_ConfigPPWR
+ .text.SystemInit
+                0x000001d4      0x150 ..\obj\system_LPC17xx.o
+                0x000001d4                SystemInit
+ .text.uart_set_divisors
+                0x00000324      0x214 ..\obj\lpc17xx_uart.o
+ .text.UART_Init
+                0x00000538      0x2e4 ..\obj\lpc17xx_uart.o
+                0x00000538                UART_Init
+ .text.UART_ConfigStructInit
+                0x0000081c       0x2c ..\obj\lpc17xx_uart.o
+                0x0000081c                UART_ConfigStructInit
+ .text.UART_SendByte
+                0x00000848       0x68 ..\obj\lpc17xx_uart.o
+                0x00000848                UART_SendByte
+ .text.UART_ReceiveByte
+                0x000008b0       0x64 ..\obj\lpc17xx_uart.o
+                0x000008b0                UART_ReceiveByte
+ .text.UART_Send
+                0x00000914       0xe8 ..\obj\lpc17xx_uart.o
+                0x00000914                UART_Send
+ .text.UART_Receive
+                0x000009fc       0xb8 ..\obj\lpc17xx_uart.o
+                0x000009fc                UART_Receive
+ .text.UART_FIFOConfig
+                0x00000ab4      0x158 ..\obj\lpc17xx_uart.o
+                0x00000ab4                UART_FIFOConfig
+ .text.UART_FIFOConfigStructInit
+                0x00000c0c       0x2c ..\obj\lpc17xx_uart.o
+                0x00000c0c                UART_FIFOConfigStructInit
+ .text.UART_TxCmd
+                0x00000c38       0xc8 ..\obj\lpc17xx_uart.o
+                0x00000c38                UART_TxCmd
+ .text.main     0x00000d00       0x14 ..\obj\main.o
+                0x00000d00                main
+ .text.GPIO_GetPointer
+                0x00000d14       0x74 ..\obj\lpc17xx_gpio.o
+ .text.GPIO_SetDir
+                0x00000d88       0x48 ..\obj\lpc17xx_gpio.o
+                0x00000d88                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x00000dd0       0x28 ..\obj\lpc17xx_gpio.o
+                0x00000dd0                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x00000df8       0x28 ..\obj\lpc17xx_gpio.o
+                0x00000df8                GPIO_ClearValue
+ .text.FIO_SetDir
+                0x00000e20       0x24 ..\obj\lpc17xx_gpio.o
+                0x00000e20                FIO_SetDir
+ .text.FIO_SetValue
+                0x00000e44       0x1c ..\obj\lpc17xx_gpio.o
+                0x00000e44                FIO_SetValue
+ .text.FIO_ClearValue
+                0x00000e60       0x1c ..\obj\lpc17xx_gpio.o
+                0x00000e60                FIO_ClearValue
+ .text.getSBoxValue
+                0x00000e7c       0x20 ..\obj\aes.o
+ .text.getSBoxInvert
+                0x00000e9c       0x20 ..\obj\aes.o
+ .text.KeyExpansion
+                0x00000ebc      0x1a0 ..\obj\aes.o
+ .text.AddRoundKey
+                0x0000105c       0x70 ..\obj\aes.o
+ .text.SubBytes
+                0x000010cc       0x5c ..\obj\aes.o
+ .text.ShiftRows
+                0x00001128       0x84 ..\obj\aes.o
+ .text.xtime    0x000011ac       0x3c ..\obj\aes.o
+ .text.MixColumns
+                0x000011e8      0x13c ..\obj\aes.o
+ .text.InvMixColumns
+                0x00001324      0x640 ..\obj\aes.o
+ .text.InvSubBytes
+                0x00001964       0x5c ..\obj\aes.o
+ .text.InvShiftRows
+                0x000019c0       0x84 ..\obj\aes.o
+ .text.Cipher   0x00001a44       0xdc ..\obj\aes.o
+ .text.InvCipher
+                0x00001b20       0xdc ..\obj\aes.o
+ .text.AES128_ECB_encrypt
+                0x00001bfc       0x6c ..\obj\aes.o
+                0x00001bfc                AES128_ECB_encrypt
+ .text.AES128_ECB_decrypt
+                0x00001c68       0x6c ..\obj\aes.o
+                0x00001c68                AES128_ECB_decrypt
+ .text.Default_Reset_Handler
+                0x00001cd4       0x60 ..\obj\startup_LPC17xx.o
+                0x00001cd4                Default_Reset_Handler
+                0x00001cd4                Reset_Handler
+ .text.Default_Handler
+                0x00001d34        0x8 ..\obj\startup_LPC17xx.o
+                0x00001d34                TIMER2_IRQHandler
+                0x00001d34                DebugMon_Handler
+                0x00001d34                RIT_IRQHandler
+                0x00001d34                I2C0_IRQHandler
+                0x00001d34                HardFault_Handler
+                0x00001d34                SysTick_Handler
+                0x00001d34                USBActivity_IRQHandler
+                0x00001d34                PWM1_IRQHandler
+                0x00001d34                PendSV_Handler
+                0x00001d34                NMI_Handler
+                0x00001d34                I2C1_IRQHandler
+                0x00001d34                EINT2_IRQHandler
+                0x00001d34                UART1_IRQHandler
+                0x00001d34                EINT3_IRQHandler
+                0x00001d34                CANActivity_IRQHandler
+                0x00001d34                TIMER3_IRQHandler
+                0x00001d34                UART0_IRQHandler
+                0x00001d34                UsageFault_Handler
+                0x00001d34                PLL0_IRQHandler
+                0x00001d34                CAN_IRQHandler
+                0x00001d34                PLL1_IRQHandler
+                0x00001d34                SSP0_IRQHandler
+                0x00001d34                I2S_IRQHandler
+                0x00001d34                I2C2_IRQHandler
+                0x00001d34                RTC_IRQHandler
+                0x00001d34                TIMER0_IRQHandler
+                0x00001d34                SPI_IRQHandler
+                0x00001d34                EINT1_IRQHandler
+                0x00001d34                TIMER1_IRQHandler
+                0x00001d34                UART2_IRQHandler
+                0x00001d34                ADC_IRQHandler
+                0x00001d34                SSP1_IRQHandler
+                0x00001d34                USB_IRQHandler
+                0x00001d34                BOD_IRQHandler
+                0x00001d34                MemManage_Handler
+                0x00001d34                WDT_IRQHandler
+                0x00001d34                SVC_Handler
+                0x00001d34                QEI_IRQHandler
+                0x00001d34                EINT0_IRQHandler
+                0x00001d34                DMA_IRQHandler
+                0x00001d34                BusFault_Handler
+                0x00001d34                UART3_IRQHandler
+                0x00001d34                MCPWM_IRQHandler
+                0x00001d34                ENET_IRQHandler
+ .text.check_failed
+                0x00001d3c        0xc ..\obj\lpc17xx_libcfg_default.o
+                0x00001d3c                check_failed
+ .text.set_PinFunc
+                0x00001d48       0x84 ..\obj\lpc17xx_pinsel.o
+ .text.set_ResistorMode
+                0x00001dcc       0x84 ..\obj\lpc17xx_pinsel.o
+ .text.set_OpenDrainMode
+                0x00001e50       0x6c ..\obj\lpc17xx_pinsel.o
+ .text.PINSEL_ConfigPin
+                0x00001ebc       0x50 ..\obj\lpc17xx_pinsel.o
+                0x00001ebc                PINSEL_ConfigPin
+ .text.uart_arduino_init0
+                0x00001f0c        0xc ..\obj\uart_arduino.o
+                0x00001f0c                uart_arduino_init0
+ .text.uart_arduino_input_ch_0
+                0x00001f18       0x18 ..\obj\uart_arduino.o
+                0x00001f18                uart_arduino_input_ch_0
+ .text.uart_arduino_output_ch_0
+                0x00001f30       0x18 ..\obj\uart_arduino.o
+                0x00001f30                uart_arduino_output_ch_0
+ .text.Nxp1768_UsartHard
+                0x00001f48       0x10 ..\obj\uart_arduino.o
+                0x00001f48                Nxp1768_UsartHard
+ .text.Nxp1768_Initiate_Usart
+                0x00001f58       0x48 ..\obj\uart_arduino.o
+                0x00001f58                Nxp1768_Initiate_Usart
+ .text.Nxp1768_GPIO_Configuration
+                0x00001fa0       0x34 ..\obj\uart_arduino.o
+                0x00001fa0                Nxp1768_GPIO_Configuration
+ .text.Nxp1768_get_char_uart
+                0x00001fd4       0x20 ..\obj\uart_arduino.o
+                0x00001fd4                Nxp1768_get_char_uart
+ .text.Nxp1768_send_char_uart
+                0x00001ff4       0x24 ..\obj\uart_arduino.o
+                0x00001ff4                Nxp1768_send_char_uart
+ .text.trigger_setup
+                0x00002018       0x18 ..\obj\trigger_arduino.o
+                0x00002018                trigger_setup
+ .text.trigger_high
+                0x00002030       0x18 ..\obj\trigger_arduino.o
+                0x00002030                trigger_high
+ .text.trigger_low
+                0x00002048       0x18 ..\obj\trigger_arduino.o
+                0x00002048                trigger_low
+ .text.pinata_comannd_loop
+                0x00002060       0x98 ..\obj\pinata_protocol.o
+                0x00002060                pinata_comannd_loop
+ .text.simple_pincode_check
+                0x000020f8       0x50 ..\obj\pinata_protocol.o
+                0x000020f8                simple_pincode_check
+ .text.get_core_version
+                0x00002148       0x24 ..\obj\pinata_protocol.o
+                0x00002148                get_core_version
+ .text.des_encypt
+                0x0000216c       0x2c ..\obj\pinata_protocol.o
+                0x0000216c                des_encypt
+ .text.des_decrypt
+                0x00002198       0x2c ..\obj\pinata_protocol.o
+                0x00002198                des_decrypt
+ .text.aes_encypt
+                0x000021c4       0x30 ..\obj\pinata_protocol.o
+                0x000021c4                aes_encypt
+ .text.aes_decrypt
+                0x000021f4       0x30 ..\obj\pinata_protocol.o
+                0x000021f4                aes_decrypt
+ .text.get_bytes
+                0x00002224       0x40 ..\obj\pinata_protocol.o
+                0x00002224                get_bytes
+ .text.send_bytes
+                0x00002264       0x40 ..\obj\pinata_protocol.o
+                0x00002264                send_bytes
+ .text.take_6_bits
+                0x000022a4       0x90 ..\obj\des.o
+                0x000022a4                take_6_bits
+ .text.xor      0x00002334       0x48 ..\obj\des.o
+                0x00002334                xor
+ .text.des      0x0000237c      0x184 ..\obj\des.o
+                0x0000237c                des
+ .text.do_p_n_xor
+                0x00002500      0x3fc ..\obj\des.o
+                0x00002500                do_p_n_xor
+ .text.E        0x000028fc      0x170 ..\obj\des.o
+                0x000028fc                E
+ .text.ip       0x00002a6c      0x2c4 ..\obj\des.o
+                0x00002a6c                ip
+ .text.fp       0x00002d30      0x440 ..\obj\des.o
+                0x00002d30                fp
+ .text.pc1      0x00003170      0x400 ..\obj\des.o
+                0x00003170                pc1
+ .text.pc2      0x00003570      0x31c ..\obj\des.o
+                0x00003570                pc2
+ .text.shiftLeft
+                0x0000388c      0x11c ..\obj\des.o
+                0x0000388c                shiftLeft
+ .text.shiftRight
+                0x000039a8      0x11c ..\obj\des.o
+                0x000039a8                shiftRight
+ .text.rand     0x00003ac4       0x40 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+                0x00003ac4                rand
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x00003b04       0x68 ..\obj\lpc17xx_uart.o
+ .rodata        0x00003b6c      0x300 ..\obj\aes.o
+ .rodata        0x00003e6c       0x28 ..\obj\pinata_protocol.o
+                0x00003e6c                defaultKeyAES
+                0x00003e7c                defaultKeyDES
+                0x00003e84                cmdByteIsWrong
+                0x00003e8c                codeVersion
+ .rodata        0x00003e94       0x10 ..\obj\des.o
+ .rodata.str1.4
+                0x00003ea4        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ *(.eh_fram e*)
+
+.glue_7         0x00003ea8        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00003ea8        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00003ea8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00003ea8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00003ea8        0x0
+ .iplt          0x00000000        0x0 ..\obj\lpc17xx_clkpwr.o
+
+.rel.dyn        0x00003ea8        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\lpc17xx_clkpwr.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00003ea8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00003ea8                __exidx_end = .
+                0x00003ea8                __etext = .
+                0x00003ea8                _sidata = __etext
+
+.data           0x10000000      0x664 load address 0x00003ea8
+                0x10000000                __data_start__ = .
+                0x10000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x10000000        0x4 ..\obj\system_LPC17xx.o
+                0x10000000                SystemCoreClock
+ .data          0x10000004        0x4 ..\obj\trigger_arduino.o
+                0x10000004                bw
+ .data          0x10000008        0x8 ..\obj\pinata_protocol.o
+                0x10000008                Pincode
+ .data          0x10000010      0x224 ..\obj\des.o
+                0x10000010                rounds
+                0x10000214                Sbox
+ *fill*         0x10000234        0x4 
+ .data.impure_data
+                0x10000238      0x428 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x10000660        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                0x10000660                _impure_ptr
+                0x10000664                . = ALIGN (0x4)
+                0x10000664                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x10000664                PROVIDE (__preinit_array_end, .)
+                0x10000664                . = ALIGN (0x4)
+                0x10000664                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x10000664                PROVIDE (__init_array_end, .)
+                0x10000664                . = ALIGN (0x4)
+                0x10000664                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x10000664                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x10000664                . = ALIGN (0x4)
+                0x10000664                __data_end__ = .
+                0x10000664                _edata = __data_end__
+
+.igot.plt       0x10000664        0x0 load address 0x0000450c
+ .igot.plt      0x00000000        0x0 ..\obj\lpc17xx_clkpwr.o
+
+.bss            0x10000664      0x1e8 load address 0x0000450c
+                0x10000664                . = ALIGN (0x4)
+                0x10000664                __bss_start__ = .
+                0x10000664                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x10000664       0xcc ..\obj\aes.o
+ .bss           0x10000730        0x1 ..\obj\uart_arduino.o
+                0x10000730                charter
+ *(COMMON)
+ *fill*         0x10000731        0x3 
+ COMMON         0x10000734      0x100 ..\obj\pinata_protocol.o
+                0x10000734                BufferTx
+                0x100007b4                BufferRx
+ COMMON         0x10000834       0x18 ..\obj\des.o
+                0x10000834                mask1
+                0x10000838                mask2
+                0x1000083c                l
+                0x10000840                k
+                0x10000848                r
+                0x1000084c                . = ALIGN (0x4)
+                0x1000084c                __bss_end__ = .
+                0x1000084c                _ebss = __bss_end__
+
+.heap           0x1000084c        0x0
+                0x1000084c                __end__ = .
+                0x1000084c                _end = __end__
+                0x1000084c                end = __end__
+ *(.heap*)
+                0x1000084c                __HeapLimit = .
+
+.co_stack       0x1000084c      0x404 load address 0x000046f4
+                0x10000850                . = ALIGN (0x8)
+ *fill*         0x1000084c        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x10000850      0x400 ..\obj\startup_LPC17xx.o
+                0x10000850                pulStack
+                0x10008000                __StackTop = (ORIGIN (ram) + 0x8000)
+                0x10007bfc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x10008000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\lpc17xx_clkpwr.o
+LOAD ..\obj\system_LPC17xx.o
+LOAD ..\obj\lpc17xx_uart.o
+LOAD ..\obj\main.o
+LOAD ..\obj\lpc17xx_gpio.o
+LOAD ..\obj\aes.o
+LOAD ..\obj\startup_LPC17xx.o
+LOAD ..\obj\lpc17xx_libcfg_default.o
+LOAD ..\obj\lpc17xx_pinsel.o
+LOAD ..\obj\syscalls.o
+LOAD ..\obj\uart_arduino.o
+LOAD ..\obj\hal.o
+LOAD ..\obj\trigger_arduino.o
+LOAD ..\obj\pinata_protocol.o
+LOAD ..\obj\led_arduino.o
+LOAD ..\obj\clock_arduino.o
+LOAD ..\obj\des.o
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(NXP_1768_DES_clean.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x46cf
+ .debug_info    0x00000000      0x654 ..\obj\lpc17xx_clkpwr.o
+ .debug_info    0x00000654      0x4b6 ..\obj\system_LPC17xx.o
+ .debug_info    0x00000b0a     0x1070 ..\obj\lpc17xx_uart.o
+ .debug_info    0x00001b7a       0xb6 ..\obj\main.o
+ .debug_info    0x00001c30      0xd55 ..\obj\lpc17xx_gpio.o
+ .debug_info    0x00002985      0x5df ..\obj\aes.o
+ .debug_info    0x00002f64       0xe9 ..\obj\startup_LPC17xx.o
+ .debug_info    0x0000304d       0xd3 ..\obj\lpc17xx_libcfg_default.o
+ .debug_info    0x00003120      0x46e ..\obj\lpc17xx_pinsel.o
+ .debug_info    0x0000358e      0x542 ..\obj\uart_arduino.o
+ .debug_info    0x00003ad0       0xf6 ..\obj\trigger_arduino.o
+ .debug_info    0x00003bc6      0x381 ..\obj\pinata_protocol.o
+ .debug_info    0x00003f47      0x788 ..\obj\des.o
+
+.debug_abbrev   0x00000000     0x1010
+ .debug_abbrev  0x00000000      0x1c5 ..\obj\lpc17xx_clkpwr.o
+ .debug_abbrev  0x000001c5      0x101 ..\obj\system_LPC17xx.o
+ .debug_abbrev  0x000002c6      0x20c ..\obj\lpc17xx_uart.o
+ .debug_abbrev  0x000004d2       0x69 ..\obj\main.o
+ .debug_abbrev  0x0000053b      0x20a ..\obj\lpc17xx_gpio.o
+ .debug_abbrev  0x00000745      0x198 ..\obj\aes.o
+ .debug_abbrev  0x000008dd       0xa7 ..\obj\startup_LPC17xx.o
+ .debug_abbrev  0x00000984       0x67 ..\obj\lpc17xx_libcfg_default.o
+ .debug_abbrev  0x000009eb      0x13c ..\obj\lpc17xx_pinsel.o
+ .debug_abbrev  0x00000b27      0x1b6 ..\obj\uart_arduino.o
+ .debug_abbrev  0x00000cdd       0x74 ..\obj\trigger_arduino.o
+ .debug_abbrev  0x00000d51       0xf9 ..\obj\pinata_protocol.o
+ .debug_abbrev  0x00000e4a      0x1c6 ..\obj\des.o
+
+.debug_aranges  0x00000000      0x548
+ .debug_aranges
+                0x00000000       0x58 ..\obj\lpc17xx_clkpwr.o
+ .debug_aranges
+                0x00000058       0x28 ..\obj\system_LPC17xx.o
+ .debug_aranges
+                0x00000080      0x100 ..\obj\lpc17xx_uart.o
+ .debug_aranges
+                0x00000180       0x20 ..\obj\main.o
+ .debug_aranges
+                0x000001a0       0xf8 ..\obj\lpc17xx_gpio.o
+ .debug_aranges
+                0x00000298       0xa0 ..\obj\aes.o
+ .debug_aranges
+                0x00000338       0x28 ..\obj\startup_LPC17xx.o
+ .debug_aranges
+                0x00000360       0x20 ..\obj\lpc17xx_libcfg_default.o
+ .debug_aranges
+                0x00000380       0x48 ..\obj\lpc17xx_pinsel.o
+ .debug_aranges
+                0x000003c8       0x58 ..\obj\uart_arduino.o
+ .debug_aranges
+                0x00000420       0x30 ..\obj\trigger_arduino.o
+ .debug_aranges
+                0x00000450       0x68 ..\obj\pinata_protocol.o
+ .debug_aranges
+                0x000004b8       0x90 ..\obj\des.o
+
+.debug_ranges   0x00000000      0x478
+ .debug_ranges  0x00000000       0x48 ..\obj\lpc17xx_clkpwr.o
+ .debug_ranges  0x00000048       0x18 ..\obj\system_LPC17xx.o
+ .debug_ranges  0x00000060       0xf0 ..\obj\lpc17xx_uart.o
+ .debug_ranges  0x00000150       0x10 ..\obj\main.o
+ .debug_ranges  0x00000160       0xe8 ..\obj\lpc17xx_gpio.o
+ .debug_ranges  0x00000248       0x90 ..\obj\aes.o
+ .debug_ranges  0x000002d8       0x18 ..\obj\startup_LPC17xx.o
+ .debug_ranges  0x000002f0       0x10 ..\obj\lpc17xx_libcfg_default.o
+ .debug_ranges  0x00000300       0x38 ..\obj\lpc17xx_pinsel.o
+ .debug_ranges  0x00000338       0x48 ..\obj\uart_arduino.o
+ .debug_ranges  0x00000380       0x20 ..\obj\trigger_arduino.o
+ .debug_ranges  0x000003a0       0x58 ..\obj\pinata_protocol.o
+ .debug_ranges  0x000003f8       0x80 ..\obj\des.o
+
+.debug_line     0x00000000     0x2b1f
+ .debug_line    0x00000000      0x371 ..\obj\lpc17xx_clkpwr.o
+ .debug_line    0x00000371      0x234 ..\obj\system_LPC17xx.o
+ .debug_line    0x000005a5      0x7f2 ..\obj\lpc17xx_uart.o
+ .debug_line    0x00000d97      0x1a2 ..\obj\main.o
+ .debug_line    0x00000f39      0x531 ..\obj\lpc17xx_gpio.o
+ .debug_line    0x0000146a      0x47d ..\obj\aes.o
+ .debug_line    0x000018e7       0xbc ..\obj\startup_LPC17xx.o
+ .debug_line    0x000019a3      0x16a ..\obj\lpc17xx_libcfg_default.o
+ .debug_line    0x00001b0d      0x305 ..\obj\lpc17xx_pinsel.o
+ .debug_line    0x00001e12      0x31c ..\obj\uart_arduino.o
+ .debug_line    0x0000212e      0x1cd ..\obj\trigger_arduino.o
+ .debug_line    0x000022fb      0x327 ..\obj\pinata_protocol.o
+ .debug_line    0x00002622      0x4fd ..\obj\des.o
+
+.debug_str      0x00000000     0x1da1
+ .debug_str     0x00000000      0x3f2 ..\obj\lpc17xx_clkpwr.o
+                                0x444 (size before relaxing)
+ .debug_str     0x000003f2       0x81 ..\obj\system_LPC17xx.o
+                                0x37d (size before relaxing)
+ .debug_str     0x00000473      0x9f2 ..\obj\lpc17xx_uart.o
+                                0xbf0 (size before relaxing)
+ .debug_str     0x00000e65       0xb1 ..\obj\main.o
+                                0x1de (size before relaxing)
+ .debug_str     0x00000f16      0x47f ..\obj\lpc17xx_gpio.o
+                                0x60e (size before relaxing)
+ .debug_str     0x00001395      0x15d ..\obj\aes.o
+                                0x2d8 (size before relaxing)
+ .debug_str     0x000014f2       0xca ..\obj\startup_LPC17xx.o
+                                0x161 (size before relaxing)
+ .debug_str     0x000015bc       0x87 ..\obj\lpc17xx_libcfg_default.o
+                                0x1b2 (size before relaxing)
+ .debug_str     0x00001643      0x292 ..\obj\lpc17xx_pinsel.o
+                                0x417 (size before relaxing)
+ .debug_str     0x000018d5      0x136 ..\obj\uart_arduino.o
+                                0x51f (size before relaxing)
+ .debug_str     0x00001a0b       0x7d ..\obj\trigger_arduino.o
+                                0x1be (size before relaxing)
+ .debug_str     0x00001a88      0x201 ..\obj\pinata_protocol.o
+                                0x3bc (size before relaxing)
+ .debug_str     0x00001c89      0x118 ..\obj\des.o
+                                0x28c (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\lpc17xx_clkpwr.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\system_LPC17xx.o
+ .comment       0x00000000       0x71 ..\obj\lpc17xx_uart.o
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\lpc17xx_gpio.o
+ .comment       0x00000000       0x71 ..\obj\aes.o
+ .comment       0x00000000       0x71 ..\obj\startup_LPC17xx.o
+ .comment       0x00000000       0x71 ..\obj\lpc17xx_libcfg_default.o
+ .comment       0x00000000       0x71 ..\obj\lpc17xx_pinsel.o
+ .comment       0x00000000       0x71 ..\obj\uart_arduino.o
+ .comment       0x00000000       0x71 ..\obj\trigger_arduino.o
+ .comment       0x00000000       0x71 ..\obj\pinata_protocol.o
+ .comment       0x00000000       0x71 ..\obj\des.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\lpc17xx_clkpwr.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\system_LPC17xx.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\lpc17xx_uart.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\lpc17xx_gpio.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\aes.o
+ .ARM.attributes
+                0x00000132       0x33 ..\obj\startup_LPC17xx.o
+ .ARM.attributes
+                0x00000165       0x33 ..\obj\lpc17xx_libcfg_default.o
+ .ARM.attributes
+                0x00000198       0x33 ..\obj\lpc17xx_pinsel.o
+ .ARM.attributes
+                0x000001cb       0x33 ..\obj\uart_arduino.o
+ .ARM.attributes
+                0x000001fe       0x33 ..\obj\trigger_arduino.o
+ .ARM.attributes
+                0x00000231       0x33 ..\obj\pinata_protocol.o
+ .ARM.attributes
+                0x00000264       0x33 ..\obj\des.o
+ .ARM.attributes
+                0x00000297       0x2d c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)
+ .ARM.attributes
+                0x000002c4       0x2d c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+
+.debug_frame    0x00000000     0x1078
+ .debug_frame   0x00000000       0xe4 ..\obj\lpc17xx_clkpwr.o
+ .debug_frame   0x000000e4       0x40 ..\obj\system_LPC17xx.o
+ .debug_frame   0x00000124      0x3a0 ..\obj\lpc17xx_uart.o
+ .debug_frame   0x000004c4       0x2c ..\obj\main.o
+ .debug_frame   0x000004f0      0x378 ..\obj\lpc17xx_gpio.o
+ .debug_frame   0x00000868      0x228 ..\obj\aes.o
+ .debug_frame   0x00000a90       0x48 ..\obj\startup_LPC17xx.o
+ .debug_frame   0x00000ad8       0x2c ..\obj\lpc17xx_libcfg_default.o
+ .debug_frame   0x00000b04       0xbc ..\obj\lpc17xx_pinsel.o
+ .debug_frame   0x00000bc0      0x104 ..\obj\uart_arduino.o
+ .debug_frame   0x00000cc4       0x64 ..\obj\trigger_arduino.o
+ .debug_frame   0x00000d28      0x148 ..\obj\pinata_protocol.o
+ .debug_frame   0x00000e70      0x1d0 ..\obj\des.o
+ .debug_frame   0x00001040       0x38 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-rand.o)

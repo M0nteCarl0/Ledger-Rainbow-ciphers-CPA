@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="10.2.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=NXP_1768_DES_clean.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\NXP_1768_DES_clean -TC:\CooCox\CoIDE\configuration\ProgramData\NXP_1768_DES_clean/arm-gcc-link.ld -g">
+      <target file="NXP_1768_DES_clean.elf" lastModified="182da34f400">
+         <source file="..\obj\lpc17xx_clkpwr.o" lastModified="182c98b8af1"/>
+         <source file="..\obj\system_LPC17xx.o" lastModified="182c98b8b20"/>
+         <source file="..\obj\lpc17xx_uart.o" lastModified="182c98b8b7d"/>
+         <source file="..\obj\main.o" lastModified="182c98b8bdb"/>
+         <source file="..\obj\lpc17xx_gpio.o" lastModified="182c98b8c1a"/>
+         <source file="..\obj\aes.o" lastModified="182c98b8ce0"/>
+         <source file="..\obj\startup_LPC17xx.o" lastModified="182c98b8d0f"/>
+         <source file="..\obj\lpc17xx_libcfg_default.o" lastModified="182c98b8d2e"/>
+         <source file="..\obj\lpc17xx_pinsel.o" lastModified="182c98b8d6d"/>
+         <source file="..\obj\syscalls.o" lastModified="182c98b8d9c"/>
+         <source file="..\obj\uart_arduino.o" lastModified="182c98b8e09"/>
+         <source file="..\obj\hal.o" lastModified="182c98b8e28"/>
+         <source file="..\obj\trigger_arduino.o" lastModified="182c98b8e76"/>
+         <source file="..\obj\pinata_protocol.o" lastModified="182c98b92be"/>
+         <source file="..\obj\led_arduino.o" lastModified="182c98b92fc"/>
+         <source file="..\obj\clock_arduino.o" lastModified="182c98b932b"/>
+         <source file="..\obj\des.o" lastModified="182c98b9493"/>
+      </target>
+   </processor>
+</history>

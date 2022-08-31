@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\cmsis_boot /I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\lpc17xx_lib /I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\cmsis /I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768 /I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\lpc17xx_lib\include /I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean /I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="1821fad3bd8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="1821fad5730">
+      </source>
+      <source file="..\..\..\des.h" lastModified="17edeffe3b8">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h" lastModified="1821fad5730">
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\des.c" lastModified="17edeffe3b8">
+         <include file="..\..\..\des.h"/>
+         <include file="..\..\..\hal.h"/>
+      </source>
+      <source file="..\..\..\hal.h" lastModified="17edeffdfd0">
+         <include file="..\..\..\arduino_config.h"/>
+         <include file="..\..\..\trigger_arduino.h"/>
+         <include file="..\..\..\uart_arduino.h"/>
+         <include file="..\..\..\led_arduino.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="1821fad89f8">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h" lastModified="1821fad5730">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\hal.c" lastModified="17edeffdfd0">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1821fad3fc0">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="1821fad5730">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\..\trigger_arduino.h" lastModified="182b5193e46">
+         <include file="..\..\..\arduino_config.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\trigger_arduino.c" lastModified="182b53e9967">
+         <include file="..\..\..\trigger_arduino.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1821fad4790">
+      </source>
+      <source file="..\..\..\main.c" lastModified="182b52eeb9b">
+         <include file="..\..\..\uart_arduino.h"/>
+         <include file="..\..\..\pinata_protocol.h"/>
+         <include file="..\..\..\trigger_arduino.h"/>
+      </source>
+      <source file="..\..\..\led_arduino.h" lastModified="182159d3eb8">
+         <include file="..\..\..\arduino_config.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1821fad3fc0">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h" lastModified="1821fad5730">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_LPC17xx.h" lastModified="1821fad5b18">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_uart.h" lastModified="1821fad8610">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="1821fad5730">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_pinsel.h" lastModified="1821fad5f00">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\led_arduino.c" lastModified="18215aa90e0">
+         <include file="..\..\..\led_arduino.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="1821fad5f00">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_LPC17xx.c" lastModified="1821fad5b18">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc_types.h" lastModified="1821fad5b18">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="1821fad5b18">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\..\clock_arduino.h" lastModified="17ffe549f28">
+         <include file="..\..\..\arduino_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\LPC17xx.h" lastModified="1821fad5730">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_LPC17xx.h"/>
+      </source>
+      <source file="..\..\..\clock_arduino.c" lastModified="182afae65b2">
+         <include file="..\..\..\clock_arduino.h"/>
+      </source>
+      <source file="..\..\..\aes.h" lastModified="180cb77f8d8">
+      </source>
+      <source file="..\..\..\arduino_config.h" lastModified="18215914c20">
+      </source>
+      <source file="..\..\..\pinata_protocol.h" lastModified="17edeffe7a0">
+         <include file="..\..\..\uart_arduino.h"/>
+      </source>
+      <source file="..\..\..\aes.c" lastModified="182afae6593">
+         <include file="..\..\..\aes.h"/>
+      </source>
+      <source file="..\..\..\uart_arduino.h" lastModified="1821fd1e690">
+         <include file="..\..\..\arduino_config.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+      </source>
+      <source file="..\..\..\pinata_protocol.c" lastModified="18007fc9f30">
+         <include file="..\..\..\pinata_protocol.h"/>
+         <include file="..\..\..\des.h"/>
+         <include file="..\..\..\trigger_arduino.h"/>
+         <include file="..\..\..\uart_arduino.h"/>
+         <include file="..\..\..\aes.h"/>
+      </source>
+      <source file="..\..\..\uart_arduino.c" lastModified="18220008810">
+         <include file="..\..\..\uart_arduino.h"/>
+      </source>
+   </includePath>
+</dependencies>

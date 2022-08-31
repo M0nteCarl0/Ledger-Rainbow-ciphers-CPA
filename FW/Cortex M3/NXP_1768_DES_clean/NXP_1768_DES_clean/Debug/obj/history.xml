@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 8.3.0 x86_64-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DLPC1768 -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\cmsis_boot -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\lpc17xx_lib -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\cmsis -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768 -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean\lpc17xx_lib\include -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW\NXP_1768_DES_clean -I..\..\..\..\..\Users\harde\OneDrive\Desktop\ASK-M\NXP1768\FW">
+      <target file="syscalls.o" lastModified="182c98b8d9c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1821fad37f0"/>
+      </target>
+      <target file="des.o" lastModified="182c98b9493">
+         <source file="..\..\..\des.c" lastModified="17edeffdfd0"/>
+      </target>
+      <target file="led_arduino.o" lastModified="182c98b92fc">
+         <source file="..\..\..\led_arduino.c" lastModified="18215aa90e0"/>
+      </target>
+      <target file="uart_arduino.o" lastModified="182c98b8e09">
+         <source file="..\..\..\uart_arduino.c" lastModified="18220008810"/>
+      </target>
+      <target file="clock_arduino.o" lastModified="182c98b932b">
+         <source file="..\..\..\clock_arduino.c" lastModified="182afae61ca"/>
+      </target>
+      <target file="hal.o" lastModified="182c98b8e28">
+         <source file="..\..\..\hal.c" lastModified="17edeffdfd0"/>
+      </target>
+      <target file="system_LPC17xx.o" lastModified="182c98b8b20">
+         <source file="..\..\..\cmsis_boot\system_LPC17xx.c" lastModified="1821fad5730"/>
+      </target>
+      <target file="aes.o" lastModified="182c98b8ce0">
+         <source file="..\..\..\aes.c" lastModified="182afae61ab"/>
+      </target>
+      <target file="startup_LPC17xx.o" lastModified="182c98b8d0f">
+         <source file="..\..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="1821fad5730"/>
+      </target>
+      <target file="lpc17xx_gpio.o" lastModified="182c98b8c1a">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="1821fad5730"/>
+      </target>
+      <target file="pinata_protocol.o" lastModified="182c98b92be">
+         <source file="..\..\..\pinata_protocol.c" lastModified="18007fc9f30"/>
+      </target>
+      <target file="main.o" lastModified="182c98b8bdb">
+         <source file="..\..\..\main.c" lastModified="182b52eeb9b"/>
+      </target>
+      <target file="lpc17xx_libcfg_default.o" lastModified="182c98b8d2e">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="1821fad5730"/>
+      </target>
+      <target file="lpc17xx_uart.o" lastModified="182c98b8b7d">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="1821fad8610"/>
+      </target>
+      <target file="trigger_arduino.o" lastModified="182c98b8e76">
+         <source file="..\..\..\trigger_arduino.c" lastModified="182b53e9967"/>
+      </target>
+      <target file="lpc17xx_pinsel.o" lastModified="182c98b8d6d">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="1821fad5f00"/>
+      </target>
+      <target file="lpc17xx_clkpwr.o" lastModified="182c98b8af1">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="1821fad5730"/>
+      </target>
+   </processor>
+</history>

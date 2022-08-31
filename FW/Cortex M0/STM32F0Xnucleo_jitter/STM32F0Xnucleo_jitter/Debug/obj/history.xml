@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.2 i686-w64-mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F030R8T6 -DSTM32F030X8 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0Xnucleo_jitter\cmsis_core -I..\..\..\workspace\STM32F0Xnucleo_jitter\stm32_lib -I..\..\..\workspace -I..\..\..\workspace\STM32F0Xnucleo_jitter\cmsis_boot -I..\..\..\workspace\STM32F0Xnucleo_jitter\stm32_lib\inc -I..\..\.. -I..\..\..\workspace\STM32F0Xnucleo_jitter">
+      <target file="syscalls.o" lastModified="18008022257">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="17ff8f27e8d"/>
+      </target>
+      <target file="des.o" lastModified="180080225f7">
+         <source file="..\..\..\des.c" lastModified="17edeffde30"/>
+      </target>
+      <target file="led_arduino.o" lastModified="1800802247b">
+         <source file="..\..\..\led_arduino.c" lastModified="18008021e7c"/>
+      </target>
+      <target file="uart_arduino.o" lastModified="180080222ea">
+         <source file="..\..\..\uart_arduino.c" lastModified="18007f290df"/>
+      </target>
+      <target file="clock_arduino.o" lastModified="180080224b1">
+         <source file="..\..\..\clock_arduino.c" lastModified="17fff21f204"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="18008022222">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="17ff8f2b3e6"/>
+      </target>
+      <target file="aes.o" lastModified="1800802219e">
+         <source file="..\..\..\aes.c" lastModified="17fff21f218"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="180080220b0">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="17ff8f2957c"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="180080222bc">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="17ff8f2b3d3"/>
+      </target>
+      <target file="pinata_protocol.o" lastModified="1800802243d">
+         <source file="..\..\..\pinata_protocol.c" lastModified="17edeffde36"/>
+      </target>
+      <target file="main.o" lastModified="18008022108">
+         <source file="..\..\..\main.c" lastModified="180080115ba"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="1800802211b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="17ff8f29583"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="180080221e3">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="17ffe5b907e"/>
+      </target>
+      <target file="trigger_arduino.o" lastModified="1800802232f">
+         <source file="..\..\..\trigger_arduino.c" lastModified="180080115ca"/>
+      </target>
+   </processor>
+</history>

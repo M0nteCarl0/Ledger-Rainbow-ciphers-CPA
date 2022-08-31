@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0Xnucleo_jitter.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0Xnucleo_jitter -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0Xnucleo_jitter/arm-gcc-link.ld -g">
+      <target file="STM32F0Xnucleo_jitter.elf" lastModified="1800802281b">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="180080220b0"/>
+         <source file="..\obj\main.o" lastModified="18008022108"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="1800802211b"/>
+         <source file="..\obj\aes.o" lastModified="1800802219e"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="180080221e3"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="18008022222"/>
+         <source file="..\obj\syscalls.o" lastModified="18008022257"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="180080222bc"/>
+         <source file="..\obj\uart_arduino.o" lastModified="180080222ea"/>
+         <source file="..\obj\trigger_arduino.o" lastModified="1800802232f"/>
+         <source file="..\obj\pinata_protocol.o" lastModified="1800802243d"/>
+         <source file="..\obj\led_arduino.o" lastModified="1800802247b"/>
+         <source file="..\obj\clock_arduino.o" lastModified="180080224b1"/>
+         <source file="..\obj\des.o" lastModified="180080225f7"/>
+      </target>
+   </processor>
+</history>
